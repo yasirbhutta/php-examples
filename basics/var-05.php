@@ -1,9 +1,9 @@
 <?php
-$x = 5;
+$x = 5; // global scope
 $y = 10;
 
 function myTest() {
- global $x, $y;
+ global $x, $y;  // use global scope variable in function
     $y = $x + $y;
     
 }

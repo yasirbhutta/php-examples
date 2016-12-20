@@ -15,7 +15,9 @@ lines
 
 // You can also use comments to leave out parts of a code line
 $x = 5 /* + 15 */ + 5;
-echo $x;
+$name = "Muhammad Ahmad Nasir";
+echo "<h2>$name</h2>";
+echo '<h1>' .$x. '</h1>';
 ?>
 
 </body>
