@@ -5,7 +5,7 @@
     </head>
     <body>
     <?php
-$favcolor = "green";
+$favcolor = "yellow";
 
 switch ($favcolor) {
     case "red":
