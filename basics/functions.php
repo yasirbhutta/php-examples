@@ -14,26 +14,29 @@
 //
 // Example1
 //
-function writeMsg() {
-    echo "Hello world!";
-}
+// function writeMsg() {
 
-writeMsg(); // call the function
+//     echo "Hello world!";
+
+// }
+
+// writeMsg(); // call the function
 
 //
 // Example2 - By Argument
 //
-function familyName($fname) {
-    echo "$fname Ahmad.<br>";
-}
+// function familyName($fname) {
+//     echo "$fname Nasir" . "<br>";
+// }
 
-familyName("Muhammad");
-familyName("Ali");
-//
+// familyName("Muhammad"); // call
+// familyName("Ali");
+// familyName("Zeeshan");
+
 // Example3 - By two arguments
 //
-
-/*function familyName($fname, $year) {
+/*
+function familyName($fname, $year) {
     echo "$fname. Born in $year <br>";
 }
 
@@ -45,14 +48,14 @@ familyName("Muhammad Hamza", "1983");*/
 // Example 4 - Default Argument Value
 //
 
-function setHeight($minheight = 50) {
-    echo "The height is : $minheight <br>";
-}
+// function setHeight($minheight = 50) {
+//     echo "The height is : $minheight <br>";
+// }
 
-setHeight(350);
-setHeight(); // will use the default value of 50
-setHeight(135);
-setHeight(80);
+// setHeight(350);
+// setHeight(); // will use the default value of 50
+// setHeight(135);
+// setHeight(80);
 
 //
 // Example 5 - Returning Values
@@ -62,8 +65,8 @@ function sum($x, $y) {
     $z = $x + $y;
     return $z;
 }
-
-echo "5 + 10 = " . sum(5, 10) . "<br>";
+$i = sum(5, 10);
+echo "5 + 10 = " . $i . "<br>";
 echo "7 + 13 = " . sum(7, 13) . "<br>";
 
 ?>

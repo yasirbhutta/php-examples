@@ -8,10 +8,10 @@
 /*foreach ($array as $value) {
     code to be executed;
 }*/
-$colors = array("red", "green", "blue", "yellow"); 
+$colors = array("red", "green", "blue", "yellow");
 
-foreach ($colors as $value) {
-    echo "$value <br>";
+foreach ($colors as $val) {
+    echo "$val <br>";
 }
 ?>
     </body>
