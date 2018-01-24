@@ -12,5 +12,5 @@ if ($conn->connect_error) {
 } 
 
 echo "Connected successfully with 'hr' database<br>";
-$conn->close();
+
 ?>

@@ -19,7 +19,6 @@ VALUES ('math');";
 
 if ($conn->multi_query($sql) === TRUE) {
     echo "New record created successfully<br>";
-    echo "Department Name: $department_name";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
