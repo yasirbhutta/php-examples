@@ -18,7 +18,7 @@ VALUES ('math');";
 
 
 if ($conn->multi_query($sql) === TRUE) {
-    echo "New record created successfully<br>";
+    echo "New records created successfully<br>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }

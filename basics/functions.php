@@ -14,28 +14,29 @@
 //
 // Example1
 //
-// function writeMsg() {
+function writeMsg() {
 
-//     echo "Hello world!";
+    echo "Hello world!";
 
-// }
+}
 
-// writeMsg(); // call the function
+writeMsg(); // call the function
 
 //
 // Example2 - By Argument
 //
-// function familyName($fname) {
-//     echo "$fname Nasir" . "<br>";
-// }
+ function familyName($fname) {
+     echo "$fname Nasir" . "<br>";
+ }
 
-// familyName("Muhammad"); // call
-// familyName("Ali");
-// familyName("Zeeshan");
+familyName("Muhammad"); // call
+familyName("Ali");
+familyName("Zeeshan");
 
 // Example3 - By two arguments
 //
-/*
+//
+
 function familyName($fname, $year) {
     echo "$fname. Born in $year <br>";
 }
@@ -48,14 +49,14 @@ familyName("Muhammad Hamza", "1983");*/
 // Example 4 - Default Argument Value
 //
 
-// function setHeight($minheight = 50) {
-//     echo "The height is : $minheight <br>";
-// }
+function setHeight($minheight = 50) {
+    echo "The height is : $minheight <br>";
+}
 
-// setHeight(350);
-// setHeight(); // will use the default value of 50
-// setHeight(135);
-// setHeight(80);
+setHeight(350);
+setHeight(); // will use the default value of 50
+setHeight(135);
+setHeight(80);
 
 //
 // Example 5 - Returning Values
