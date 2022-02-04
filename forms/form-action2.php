@@ -17,7 +17,7 @@ if(isset($_POST['submit']))
 
 
 <!-- PHP_SELF variable can be exploited. using following URL -->
-<!-- http://www.yourdomain.com/form-action.php/%22%3E%3Cscript%3Ealert('xss')%3C /script%3E%3Cfoo%22 -->
+<!-- http://www.yourdomain.com/form-action.php/%22%3E%3Cscript%3Ealert('xss')%3C/script%3E%3Cfoo%22 -->
 
 <!-- output of htmlentities -->
 
